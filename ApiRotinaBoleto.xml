@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiRotinaBoleto</name>
+    </assembly>
+    <members>
+        <member name="M:ApiRotinaBoleto.Controllers.BoletoController.ListarBoletos">
+            <summary>
+            Lista Todos os Boletos registrados no banco de dados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiRotinaBoleto.Controllers.BoletoController.LocalizarBoleto(System.String)">
+            <summary>
+            Localiza boleto por número de Código de Barras
+            </summary>
+            <param name="numeroCodigoBarras">Número do Código de Barras para localizar o boleto</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
